@@ -1,10 +1,13 @@
 body {
-    font-family: Arial, sans-serif;
-    background: #f7f7f7;
+    font-family: "Poppins" ,Arial, sans-serif;
+    background: linear-gradient(135deg, #74ABE2, #5563DE);
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    flex-direction: column;
 }
 
 h2 {
@@ -12,10 +15,18 @@ h2 {
 }
 
 .calculator {
-    background: #fff;
+    /* background: #fff;
     padding: 20px 30px;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    position: relative; */
+    z-index: 1;
+    background: #fff;
+    padding: 25px 35px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    width: 300px;
+    text-align: center;
 }
 
 input,

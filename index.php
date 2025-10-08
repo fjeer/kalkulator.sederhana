@@ -57,6 +57,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div class="result">Hasil: <?= htmlspecialchars($result) ?></div>
         <?php endif; ?>
     </div>
+
 </body>
 
 </html>
